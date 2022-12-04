@@ -1,0 +1,73 @@
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+@media only screen and (max-width: 544px) {
+    /* .swiper-wrapper{
+    padding: 30px 45px;
+    } */
+} 
+
+@media only screen and (max-width: 793px) {
+    /* .swiper-wrapper{
+        padding: 20px 35px;
+    } */
+    .header{
+        height: auto;
+        border-bottom: 0px;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .buttons {
+        width: 100%;
+        display: none;
+    }
+    .buttons.show {
+        display: block;
+    }
+    .buttons a {
+        display: block;
+    }
+    .buttons .fa {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+    }
+    .login:hover {
+        background: rgb(242, 3, 3);
+        width: 20%;
+        margin: 2px;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+.contenedor-categoria-menu p{
+	color: #262626;
+}
+
+.contenedor-categoria-menu img:hover {
+  
+ transform: translateY(-20px);
+ transition: 0.3s;
+ }
+
+ .contenedor-categoria-menu img {
+  
+  width: 35%;
+ }
+
+ .contenedor-categoria-menu{
+  padding-top: 60px;
+ }
+
+ @media (max-width: 1000px){
+
+.contenedor-categoria-menu img {
+  
+  width: 50%;
+ }
+ .contenedor-categoria-menu p {
+  
+  font-size: 14px;
+ }
+ .contenedor-categoria-menu{
+  padding-top: 30px;
+ }
+}

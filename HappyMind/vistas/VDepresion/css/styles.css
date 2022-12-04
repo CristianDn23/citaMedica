@@ -1,0 +1,150 @@
+@import url(banner.css);
+@import url(noticias.css);
+@import url(about.css);
+@import url(animacion.css);
+@import url(footer.css);
+@import url(contacto.css);
+@import url(empresa.css);
+@import url(testimonios.css);
+@import url(teampsi.css);
+@import url(modal.css);
+@import url(asistencia.css);
+
+
+/***************************************
+     IMPORTACIONES DE ESTILOS CSS
+***************************************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+    color: #424152;
+    font-size: 300;
+    font-size: 18px;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+a, a:hover, a:focus, a:active{
+    outline: none;
+}
+
+.section-padding{
+    padding: 60px 0px;
+
+}
+h2 {
+    line-height: 20px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+hr.botm-line {
+    height: 3px;
+    width: 60px;
+    background: #ffb737;
+    position: relative;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+
+
+
+
+
+/*NO CONFIES EN NUESTRA PALABRA
+@media (min-width: 551px) and (max-width: 980px){
+
+}
+@media (min-width: 220px) and (max-width: 551px){
+    .testi-info{
+        margin-bottom: 20px;
+    }
+    .marb20{
+        margin-top: 30px;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .section-title{
+        margin-bottom: 30px;
+    }
+    .medi-info {
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    }
+    .service-info{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .caption h3 {
+    font-size: 14px;
+    }
+    .caption p{
+    font-size: 12px;
+    padding-bottom: 5px;
+    }
+    .caption ul li a i{
+        font-size: 14px;
+    }
+    .banner-text h1{
+        font-size: 24px;
+    }
+}
+
+.contenedor-categoria-menu p{
+    color: #262626;
+}
+    
+.contenedor-categoria-menu img:hover {
+  
+ transform: translateY(-20px);
+ transition: 0.3s;
+ }
+
+ .contenedor-categoria-menu img {
+  
+  width: 35%;
+ }
+
+ .contenedor-categoria-menu{
+  padding-top: 60px;
+ }
+
+ @media (max-width: 800px){
+
+.contenedor-categoria-menu img {
+  
+  width: 50%;
+ }
+ .contenedor-categoria-menu p {
+  
+  font-size: 14px;
+ }
+ .contenedor-categoria-menu{
+  padding-top: 30px;
+ }
+}
+*/
+
